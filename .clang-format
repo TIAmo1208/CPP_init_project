@@ -1,0 +1,24 @@
+---
+Language:	Cpp
+
+# 对齐-------------------------------
+# 对齐等号
+AlignConsecutiveAssignments:	true
+# 对齐注释
+AlignTrailingComments:	true
+
+# 换行-------------------------------
+# 短的if语句在同一行
+AllowShortIfStatementsOnASingleLine:	true
+# 短的循环在同一行
+AllowShortLoopsOnASingleLine:	true
+
+# 缩进--------------------------------
+# 缩进宽度
+IndentWidth:	4
+# tab宽度
+TabWidth:	4
+# public、private等的偏移
+AccessModifierOffset:   -4
+# 命名空间的缩进: None, Inner(缩进嵌套的命名空间中的内容), All
+NamespaceIndentation:	All
