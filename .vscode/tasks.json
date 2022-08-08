@@ -10,11 +10,8 @@
                 "${workspaceFolder}/src/*.cpp",
                 "-I",
                 "${workspaceFolder}/inc",
-                "-L",
-                "/usr/local/lib/",
                 "-o",
-                "${workspaceFolder}/out/${workspaceFolderBasename}.ELF",
-                "-lhiredis"
+                "${workspaceFolder}/out/${workspaceFolderBasename}"
             ],
             "options": {
                 "cwd": "/usr/bin"

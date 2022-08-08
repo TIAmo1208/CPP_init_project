@@ -5,7 +5,7 @@
             "name": "C/C++: g++.exe 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/out/${workspaceFolderBasename}.ELF",
+            "program": "${workspaceFolder}/out/${workspaceFolderBasename}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "/usr/bin/",
